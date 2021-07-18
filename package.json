@@ -1,0 +1,29 @@
+{
+  "name": "iptv-id",
+  "version": "1.0.0",
+  "description": "IPTV Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js start"
+  },
+  "bin": {
+    "iptv-id": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwafa/iptv-id.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwafa/iptv-id/issues"
+  },
+  "homepage": "https://github.com/mwafa/iptv-id#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "papaparse": "^5.3.1",
+    "yargs": "^17.0.1"
+  }
+}
