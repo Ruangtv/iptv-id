@@ -21,3 +21,5 @@ app
     }
   )
   .help().argv
+
+module.exports = server
