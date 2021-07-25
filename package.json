@@ -1,6 +1,6 @@
 {
   "name": "iptv-id",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "IPTV Service",
   "main": "index.js",
   "scripts": {
