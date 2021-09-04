@@ -5,7 +5,13 @@
 Jalankan server iptv playlist generator di local komputer dengan perintah:
 
 ```
-npx iptv-id start
+npx iptv-id start [port] [domain]
+```
+
+contoh:
+
+```
+npx iptv-id start --port 3000 --domain http://localhost:3000
 ```
 
 Lalu buka playlist dengan IPTV Player seperti [VLC Player](https://www.videolan.org/vlc/).
@@ -18,7 +24,7 @@ http://localhost:3000/playlist.m3u
 
 ## Custom Channel
 
-Untuk kustom channel kamu bisa lakukan dengan cara:
+Untuk kustom channel / self-hosting kamu bisa lakukan dengan cara:
 
 1. Clone
 
@@ -37,7 +43,7 @@ npm install
 4. Jalankan Server
 
 ```sh
-npm start
+npm start --port 3000 --domain http://localhost:3000
 ```
 
 ---

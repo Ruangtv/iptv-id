@@ -5,7 +5,7 @@ const server = require("./lib/app")
 app
   .scriptName("iptv-id")
   .command(
-    "start [port]",
+    "start [port] [domain]",
     "Start service",
     (yargs) => {
       return yargs.positional("port", {
@@ -13,10 +13,14 @@ app
         default: 3000,
       })
     },
-    ({ port }) => {
+    ({ port, domain }) => {
+      if (domain) server.domain(domain)
       server.listen(port, () => {
         console.log(`Server Start at port ${port}`)
-        console.log("URL Playlist:", `http://localhost:${port}/playlist.m3u`)
+        console.log(
+          "URL Playlist:",
+          `${domain || `http://localhost:${port}`}/playlist.m3u`
+        )
       })
     }
   )
