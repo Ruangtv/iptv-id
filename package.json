@@ -1,6 +1,6 @@
 {
   "name": "iptv-id",
-  "version": "1.3.20",
+  "version": "1.3.21",
   "description": "IPTV Service",
   "main": "index.js",
   "scripts": {
@@ -23,10 +23,10 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "ioredis": "^4.27.9",
-    "node-fetch": "^2.6.1",
+    "ioredis": "^4.28.0",
+    "node-fetch": "^2.6.5",
     "papaparse": "^5.3.1",
     "twitch-m3u8": "^1.1.4",
-    "yargs": "^17.0.1"
+    "yargs": "^17.2.1"
   }
 }
