@@ -1,8 +1,8 @@
-vidio_id,name,group,image,url,dm,twitch,usee
+vidio_id,name,group,image,url,dm,twitch,usee,rcti_plus
 0,antv,nasional,https://i.postimg.cc/DyWXD5DD/antv.png,http://210.210.155.35/qwr9ew/s/s07/02.m3u8,,,
 0,tvone,nasional,https://i.postimg.cc/NfQYBP49/105261-logo-tvone-665-374.jpg,,k2uDgtBgdyXR1AoH4XD,,
 204,sctv,nasional,https://i.postimg.cc/B6ZFwp58/sctv.png,,,,
-665,rcti,nasional,https://i.postimg.cc/13Nm4VLb/20191010-164600.png,,,,
+0,rcti,nasional,https://i.postimg.cc/13Nm4VLb/20191010-164600.png,,,,,d31njnhwx90n40.cloudfront.net/live/eds/RCTI_2021/live_fta/RCTI_2021.m3u8
 0,trans tv,nasional,https://i.postimg.cc/J7JSycnN/logo-transtv-big1.png,https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8,,,transtv
 0,trans 7,nasional,https://i.postimg.cc/YCfxSb39/trans7.png,https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8,,,trans7
 870,mnctv,nasional,https://i.postimg.cc/rw8620qS/20191026-003920.png,,,,
